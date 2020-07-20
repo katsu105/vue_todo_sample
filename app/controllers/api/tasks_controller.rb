@@ -1,4 +1,5 @@
 class Api::TasksController < ApplicationController
+  protect_from_forgery
 
   # GET /tasks
   def index
